@@ -3,7 +3,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 import { RtcEngine, AgoraView } from 'react-native-agora';
 import { request, PERMISSIONS } from 'react-native-permissions';
 
-const APP_ID = '7ad3b3f9bb6e46ccad447af67d19260a'; // Replace with your Agora App ID
+const APP_ID = '7ad3b3f9bb6e46ccad447af67d19260a';
 
 const VideoCallScreen = () => {
   const [engine, setEngine] = useState(null);
